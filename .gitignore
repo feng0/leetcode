@@ -1,0 +1,24 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+
+rebel.xml
+*rebel.xml
+*.rebel*.xml.*
+*rebel*.xml
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+target
+.attach_pid*
+
+
+### MacOs ###
+.DS_Store
+
+var/*
+!var/readme.txt
