@@ -47,7 +47,7 @@
 // 
 // Related Topics 数组 动态规划 
 // 👍 798 👎 0
-package com.leetcode.leetcode.editor.cn;
+package com.leetcode.l62不同路径;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
