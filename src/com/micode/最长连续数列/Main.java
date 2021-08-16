@@ -32,11 +32,16 @@ public class Main {
             arrDigit[i] = Integer.parseInt(arrs[i]);
         }
         Arrays.sort(arrDigit);
-
-        for(int i=0;i<arrDigit.length;i++){
-
+        int[] dp = new int[arrDigit.length];
+        Arrays.fill(dp,1);
+        int max = 1;
+        for(int i=1;i<arrDigit.length;i++){
+            if(arrDigit[i]-arrDigit[i-1] == 1){
+                dp[i] = dp[i-1] + 1;
+                max = Math.max(max,dp[i]);
+            }
         }
 
-        return 0;
+        return max;
     }
 }
